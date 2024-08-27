@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun dünyasına xoş gəlmisiniz!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение внешнего CSS -->
+</head>
+<body>
+    <header>
+        <h1>🎮Oyun dünyasına xoş gəlmisiniz ! 🎮</h1>
+    </header>
+    <div class="game-container">
+        <div class="game-box">
+            <h2>🕹️ Coloron </h2>
+            <p><strong>Coloron</strong> ilə rənglərin dünyasına daxil olun! 🌈 Bu maraqlı oyunda, müxtəlif rəngləri uyğunlaşdıraraq səviyyələri keçməyə çalışın. 🎨 Sürətli düşünmə və diqqət tələb edən bu oyun sizi saatlarla əyləndirəcək! 🕹️</p>
+            <div class="buttons">
+                <button class="blob-btn" onclick="window.location.href='color/index.html'">
+                    Oyuna Başla
+                    <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="game-box">
+            <h2>🎲 Kubik Rubik</h2>
+           <p><strong>Kubik Rubik</strong> ilə məntiqi bacarıqlarınızı sınayın! 🎲 Hədəf, kubiki hər tərəfi eyni rəngdə düzəltməkdir. 🧩 Uğurlu olmağınızı gözləyirik! 🏆</p>
+            <div class="buttons">
+                <button class="blob-btn" onclick="window.location.href='cube/index.html'">
+                    Oyuna Başla
+                    <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="game-box">
+            <h2>🏓 Ping Pong</h2>
+          <p><strong>🏓Ping Pong</strong> ilə sürətli və həyəcanlı ping-pong döyüşlərinə qoşulun! 🏓 Raketlərinizi hazırlayın və topu rəqibinizin sahəsinə düşürərək xal qazanın. 🎯 Bu klassik oyun, əyləncə və refleksləri inkişaf etdirmək üçün mükəmməl bir seçimdir🔥</p>
+
+            <div class="buttons">
+                <button class="blob-btn" onclick="window.location.href='pong/index.html'">
+                    Oyuna Başla
+                    <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="game-box">
+            <h2>🎯Sayıları tap</h2>
+             <p>Əyləncəli bir oyun - 1-dən 100-ə qədər gizli sayı tap! 🕵️‍♂️</p>
+    <p>3 Təxmin: Təxmin etdikdən sonra rəqəmin yüksək, aşağı və ya cüt/tek olduğunu öyrənəcəksiniz. 🔍</p>
+    <p>Qalib Olun: Doğru rəqəmi tapın və oyunu bitirin. 🎉</p>
+    <p>Uğurlar! 🌟</p>
+            <div class="buttons">
+                <button class="blob-btn" onclick="window.location.href='say/index.html'">
+                    Oyuna Başla
+                    <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 
+                                                               0 1 0 0 0 
+                                                               0 0 1 0 0 
+                                                               0 0 0 21 -7" result="goo"></feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+            </filter>
+        </defs>
+    </svg>
+</body>
+</html>
+
